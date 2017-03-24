@@ -1,0 +1,10 @@
+print("enter marks of five subjects\n")
+subject1=input("enter marks of subject1:\n " )
+subject2=input("enter marks of subject2:\n " )
+subject3=input("enter marks of subject3:\n " )
+subject4=input("enter marks of subject4:\n " )
+subject5=input("enter marks of subject5:\n " )
+total= float(subject1)+float(subject2)+float(subject3)+float(subject4)+float(subject5)
+percentage= total/5
+print("total marks= {}" .format(total))
+print("total percentage= {:.2f}%" .format(percentage))

@@ -4,4 +4,4 @@ while n < 5:
 	value = input('enter number %s: ' % (n + 1))
 	sum = sum + float(value)
 	n += 1
-	print('sum = %.2f' %sum)
+print('sum = %.2f' %sum)
